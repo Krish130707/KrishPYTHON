@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logos{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    margin-top: 14px;
+}
+.left-logo{
+    margin: 10px 0px 0px 20px;
+    height: 80px;
+    width: 100px;
+}
+.middle-logo{
+    margin-left: 320px;
+    height: 110px;
+    width: 650px;
+}
+.middle-logo img{
+    object-fit: cover;
+}
+.end-logo{
+    height: 90px;
+    margin-left: 300px;
+}
+#Navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0483b3;
+    height: 96px;
+}
+.buttons{
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-weight: 100;
+    background-color: #0483b3;
+    height: 30px;
+}
+#nav1 select{
+    width: 100px;
+}
+#nav2 select{
+    width: 190px;
+}
+#page1{
+    display: flex;
+}
+.minibox{
+    font-weight: 850;
+    padding: 9px 5px 9px 15px;
+    border-radius: 3px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    background-color: #2ab7ed99;
+    width: 190px;
+    margin: 5px;
+}
+.minibox:hover{
+    color: rgb(250, 18, 18);
+}
+#box1{
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 300px;
+    justify-content: center;
+}
+#box2{
+    margin-top: 45px;
+    margin-left: 20px;
+    width: 950px;
+    display: flex;
+}
+#box2 img{
+    position: absolute;
+    height: 400px;
+    width: 950px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#fakebox2{
+    margin-top: 45px;
+    margin-left: 20px;
+    width: 950px;
+    height: 450px;
+}
+#box3{
+    margin-right: 35px;
+    margin-top: 40px;
+}
+
+footer{
+    background-color: #1f2532;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.footer-left {
+    margin-bottom: 10px;
+}
+.footer-links {
+    margin: 5px 0;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    margin: 10px 0;
+}
+.social-icons img {
+    width: 20px;
+    margin: 0 5px;
+}
+.footer-bottom {
+    background-color: #2b303b;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+

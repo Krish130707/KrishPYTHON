@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVNIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <!-- Logos -->
+        <div id="logos">
+            <div id="image1">
+                <img src="https://www.svnit.ac.in/images/logo.png" class="left-logo" alt="SVNIT">
+            </div>
+            <div id="image2">
+                <img src="https://www.svnit.ac.in/images/namehind.png" class="middle-logo" alt="svnit">
+            </div>
+            <div id="image3">
+                <img src="https://www.svnit.ac.in/images/sardar_vallabhbhai_patel.png" class="end-logo" alt="svnit">
+            </div>
+        </div>
+        <!-- Navbar -->
+        <div id="Navbar">
+            <div id="nav1">
+                <select class="buttons" name="About Us">
+                    <option>About Us</option>
+                    <option>About The Institute</option>
+                    <option>Vision and Mission</option>
+                    <option>NIT Statutes</option>
+                    <option>Registration Cirtificate</option>
+                    <option>Council Of NIT</option>
+                </select>
+            </div>
+            <div id="nav2" >
+                <select class="buttons" name="Administration">
+                    <option aria-rowspan="2">ADMINISTRATION</option>
+                    <option>Board Of Governers</option>
+                    <option>Senate Members</option>
+                    <option>Finance Comittee</option>
+                    <option>Building And Work Comittee</option>
+                    <option>Chairperson BoG</option>
+                    <option>Director</option>
+                </select>
+            </div>
+            <div id="nav3" class="buttons">ACADEMIC</div>
+            <div id="nav4" class="buttons">DEPARTMENTS</div>
+            <div id="nav5" class="buttons">STUDENT LIFE</div>
+            <div id="nav6" class="buttons">RESERCH AND CONSULTUNCY</div>
+            <div id="nav6" class="buttons">CAREER DEVELOPMENT CELL</div>
+        </div>
+    </div>
+    <div id="page1">
+        <!-- Box1 -->
+        <div id="box1">
+            <div class="minibox">Minuts Of Meetings</div>
+            <div class="minibox">Memorandum Of Understanding</div>
+            <div class="minibox">Ek Bharat Shresth Bharat</div>
+            <div class="minibox">Achievments</div>
+            <div class="minibox">Central library</div>
+            <div class="minibox">Alumni</div>
+            <div class="minibox">NIRF</div>
+            <div class="minibox">Career</div>
+            <div class="minibox">RTI</div>
+            <div class="minibox">Vigilance Section</div>
+            <div class="minibox">Employee Corner</div>
+        </div>
+        <!-- Box2 -->
+        <div id="box2" class="slideshow-container">
+            <div id="img1" class="slide"><img src="https://www.svnit.ac.in/images/slider/ARTM2151.JPG" alt="svnit"></div>
+            <div id="img2" class="slide"><img src="https://www.svnit.ac.in/images/slider/sardar.JPG" alt="svnit"></div>
+            <div id="1mg3" class="slide"><img src="https://www.svnit.ac.in/images/slider/26jan.png" alt="svnit"></div>
+            <div id="img4" class="slide"><img src="https://www.svnit.ac.in/images/convocation24-1/2.jpg" alt="svnit"></div>
+            <div id="img5" class="slide"><img src="https://www.svnit.ac.in/images/convocation24-1/5.jpg" alt="SVNIT"></div>
+            <div id="img6" class="slide"><img src="https://www.svnit.ac.in/images/slider/alumni-london.jpg" alt="SVNIT"></div> 
+            <div id="img7" class="slide"><img src="https://www.svnit.ac.in/images/slider/img3.png" alt=""></div>       
+        </div>
+        <div id="fakebox2"></div>
+        <!-- Box3 -->
+        <div id="box3">
+            <div class="minibox">Samarth-eGov</div>
+            <div class="minibox">Chapters | Clubs | Society</div>
+            <div class="minibox">Magazine | Newsletter</div>
+            <div class="minibox">Admission</div>
+            <div class="minibox">Scholarship</div>
+            <div class="minibox">Fee Structure</div>
+            <div class="minibox">Academic Calender</div>
+            <div class="minibox">JoSAA | CCMT</div>
+            <div class="minibox">Hostel</div>
+            <div class="minibox">Fees Payment</div>
+            <div class="minibox">NCC | NSS | Yoga</div>
+            <div class="minibox">Cells</div>
+        </div>
+    </div>
+    <footer>
+            <div class="footer-container">
+                <div class="footer-left">
+                    <p>Sardar Vallabhbhai National Institute of Technology,</p>
+                    <p>Ichchhanath, Surat-395007, Gujarat, INDIA</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">SECURITY</a> | 
+                    <a href="#">POST OFFICE</a> | 
+                    <a href="#">BANK</a> 
+                </div>
+                <div class="footer-links">
+                    <a href="#">GALLERY</a> | 
+                    <a href="#">IT POLICY FORM</a> | 
+                    <a href="#">IT POLICY</a> | 
+                    <a href="#">GUIDELINES FOR CYBER SECURITY/CYBER CRIME</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">GST INFORMATION</a> | 
+                    <a href="#">BIS DASHBOARD</a> | 
+                    <a href="#">INSTITUTE TIMINGS</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                </div>
+            </div>
+
+        <div class="footer-bottom">
+            <p>© COPYRIGHT 2022 ALL RIGHTS RESERVED BY SVNIT</p>
+            <p>DEVELOPED BY: WEB TEAM - CENTRAL COMPUTER CENTRE, SVNIT</p>
+        </div>
+    </footer>
+    <script>
+        let slideIndex = 0;
+        function showSlides() {
+            let slides = document.querySelectorAll(".slide");
+            slides.forEach(slide => slide.style.display = "none");
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000);
+        }
+        showSlides();
+    </script>
+
+</body>
+</html>
+
